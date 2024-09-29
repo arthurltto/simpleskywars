@@ -1,0 +1,10 @@
+name: SimpleSkyWars
+version: '${project.version}'
+main: com.zanelatto.simpleskywars.Main
+commands:
+  setlobby:
+    description: Define o spawn onde o jogador está.
+    usage: /setlobby
+  gm:
+    description: "Altera o modo de jogo."
+    usage: "/gm [0|1|2|3|survival|creative|adventure|spectator]"
